@@ -1,0 +1,21 @@
+{
+    "name": "tas/yii2-myext",
+    "description": "Demo",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Thang Dang",
+            "email": "vthang87@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "tas\\myext\\": ""
+        }
+    }
+}
